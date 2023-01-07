@@ -8,6 +8,34 @@ a {
     text-decoration: none;
 }
 
+/* -- -- ESTILOS GENERALES -- --*/
+
+.basura {
+    color:rgb(230, 100, 100);
+}
+
+.basura:hover {
+    cursor: pointer;
+    color:rgb(230, 70, 70);
+}
+
+.editar {
+    color: rgb(100, 100, 230);
+}
+
+.editar:hover {
+    cursor: pointer;
+    color: rgb(70, 70, 230);
+}
+
+.visualizar {
+    color:rgb(100, 200, 100);
+}
+
+.visualizar:hover {
+    cursor: pointer;
+    color:rgb(70, 200, 70);
+}
 /* --- --- BARRA LATERAL --- ---*/
 
 .barra-lateral {
