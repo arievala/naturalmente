@@ -1,0 +1,90 @@
+body {
+    background-color: #f2f2f2;
+    font-size: 16px;
+    font-family: monospace, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --- --- BARRA LATERAL --- ---*/
+
+.barra-lateral {
+    background-color: #262a34;
+    min-width: 300px;
+    min-height: 100vh;
+    color: white;
+}
+
+.barra-lateral a {
+    color: white;
+}
+
+.barra-lateral .logo {
+    background-color: #db9a02;
+}
+
+.barra-lateral .logo h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* --- --- MENU --- ---*/
+
+.barra-lateral .menu a {
+    display: block;
+    padding: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.barra-lateral .menu a:hover {
+    background-color: #35ae6b;
+}
+
+.barra-lateral .menu a svg {
+    margin-right: 10px;
+}
+
+/* --- --- MEDIA QUERIES --- ---*/
+
+/* Dispositivo xs */
+@media screen and (max-width: 300px) {
+    
+}
+
+/* Dispositivo sm */
+@media screen and (max-width: 576px) {
+    .barra-lateral {
+        min-height: auto;
+    }    
+}
+
+/* Dispositivo md */
+@media screen and (max-width: 768px) {
+    
+}
+
+/* Dispositivo lg */
+@media screen and (max-width: 992px) {
+    
+}
+
+/* Dispositivo xl */
+@media screen and (max-width: 1200px) {
+    .barra-lateral {
+        min-width: auto;
+    }
+
+    .barra-lateral .logo h2 {
+        font-size: 20px;
+    }
+
+}
+
+/* Dispositivo xxl */
+@media screen and (max-width: 1400px) {
+    
+}
